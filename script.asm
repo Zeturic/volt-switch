@@ -13,7 +13,7 @@ ATK4F_DONT_CHECK_STATUSES equ 0x80
 
 DELAY_1SECOND equ 0x0
 
-test_script:
+volt_switch_script:
     attackcanceler 
     accuracycheck 0x081D695E, 0x0 
     attackstring 

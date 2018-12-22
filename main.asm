@@ -15,7 +15,7 @@
 .endarea
 
 .org move_scripts + EFFECT_VOLT_SWITCH *4
-.word test_script
+.word volt_switch_script
 
 .org move_cmds + ATK_JUMPIFBATTLEOVER *4
 .word atkxx_jumpifbattleover |1
