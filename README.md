@@ -32,4 +32,4 @@ If a Pokémon faints from Volt Switch and the opposing trainer still has more Po
 
 ### Credits
 
-Original implementation by [MrDollSteak](https://www.pokecommunity.com/showpost.php?p=8428982&postcount=160). The only functional difference between the one here and there is that this one doesn't force a switch out when the battle is ending.
+Original implementation by [MrDollSteak](https://www.pokecommunity.com/showpost.php?p=8428982&postcount=160). The only functional differences between the one here and there are that this one doesn't force a switch out when the battle is ending, and that this one doesn't switch out if the target is immune.
