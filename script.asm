@@ -6,13 +6,6 @@ TRUE equ 1
 
 NULL equ 0
 
-BS_TARGET equ 0
-BS_ATTACKER equ 1
-
-ATK4F_DONT_CHECK_STATUSES equ 0x80
-
-DELAY_1SECOND equ 0x0
-
 volt_switch_script:
     attackcanceler 
     accuracycheck 0x081D695E, 0x0 
