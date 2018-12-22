@@ -30,4 +30,5 @@ volt_switch_script:
     tryfaintmon BS_TARGET, FALSE, NULL 
     jumpifcantswitch (ATK4F_DONT_CHECK_STATUSES | BS_ATTACKER), 0x081D694E 
     jumpifbattleover 0x081D694E
+    jumpifmovehadnoeffect 0x081D694E
     goto 0x81D79A0

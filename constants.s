@@ -12,3 +12,5 @@ ATK_JUMPIFBATTLEOVER equ 0xFE
 .definelabel party_player, 0x02024284
 
 .definelabel b_defender, 0x02023D6C
+
+.definelabel b_attack_effectivity, 0x02023DCC
