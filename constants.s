@@ -1,7 +1,4 @@
-.definelabel move_scripts, 0x08903B70           // mrds
 EFFECT_VOLT_SWITCH equ 233
-
-.definelabel move_cmds, 0x0895F480           // mrds
 ATK_JUMPIFBATTLEOVER equ 0xFE
 
 // -----------------------------------------------------------------------------
@@ -14,3 +11,6 @@ ATK_JUMPIFBATTLEOVER equ 0xFE
 .definelabel b_defender, 0x02023D6C
 
 .definelabel b_attack_effectivity, 0x02023DCC
+
+.definelabel move_scripts_ptr, 0x08025CF8
+.definelabel move_cmds_ptr, 0x08014C1C

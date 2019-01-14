@@ -14,10 +14,10 @@
     .include "script.asm"
 .endarea
 
-.org move_scripts + EFFECT_VOLT_SWITCH *4
+.org readu32("rom.gba", move_scripts_ptr & 0x1FFFFFF) + EFFECT_VOLT_SWITCH *4
 .word volt_switch_script
 
-.org move_cmds + ATK_JUMPIFBATTLEOVER *4
+.org readu32("rom.gba", move_cmds_ptr & 0x1FFFFFF) + ATK_JUMPIFBATTLEOVER *4
 .word atkxx_jumpifbattleover |1
 
 .close
