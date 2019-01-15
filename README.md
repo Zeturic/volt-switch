@@ -6,7 +6,11 @@ An implementation of Volt Switch (and U-Turn) for Fire Red.
 
 ### What do I do before I build this?
 
+If necessary, change `move_scripts` in `constants.s`. The given address of this table is for MrDollSteak's patch, so if it is there, you will not need to modify this. This is the table of move effects to be assigned directly to moves.
+
 Update `EFFECT_VOLT_SWITCH` in `constants.s`. This will be the effect id that gets assigned to Volt Switch.
+
+If necessary, change `move_cmds` in `constants.s`. The given address of this table is for MrDollSteak's patch, so if it is there, you will not need to modify this. This is the table of commands for move scripts (e.g. `attackcanceler` and `attackstring`).
 
 Update `ATK_JUMPIFBATTLEOVER` in `constants.s`. This code adds a new command (`jumpifbattleover`) and it will need an unused move script command id to be inserted.
 
