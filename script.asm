@@ -1,5 +1,4 @@
 .include "battlescript.s"
-.loadtable "character-encoding.tbl"
 
 FALSE equ 0
 TRUE equ 1
